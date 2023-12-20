@@ -240,10 +240,12 @@ results
 ### Observations:
 #### Linear Regression performed well on the original features. However, it performed significantly worst with PCA, indicating that reducing features did not helped mitigate these issues.
 ![screenshots1](images/linearFt.png?raw=true)
-#### Ridge Regression showed strong performance on both the original and PCA-transformed data, with slightly better results on the original features. This suggests that Ridge Regression's inherent regularization helped handle the multicollinearity in the original data.
+## Ridge Regression showed strong performance on both the original and PCA-transformed data, with slightly better results on the original features. This suggests that Ridge Regression's inherent regularization helped handle the multicollinearity in the original data.
+## The shrinkage of the coefficients is achieved by penalizing the regression model with a penalty term called L2-norm, which is the sum of the squared coefficients
 ![screenshots1](images/ridgeregression.png?raw=true)
 # Conclusion:
 ## The choice to use PCA depends on the specific model and the trade-offs between performance and model complexity.
 ## Ridge Regression seems to be a good choice for this dataset, either with or without PCA, though it performs slightly better without PCA.
 ## For Linear Regression, PCA usually significantly improves performance and is thus recommended.
+
 
