@@ -1,6 +1,6 @@
 ![screenshots1](images/carimage.jpg?raw=true)
 
-# ML_AutoMobile_Price_Prediction
+# AutoMobile Price Analysis and Prediction
 #### Welcome to ML_AutoMobile_Price_Predictor, an open-source data analysis and machine learning project! This repository hosts a comprehensive analysis of a real-world dataset, showcasing the entire data science pipeline from data exploration to model building. The primary goal is to understand the factors influencing car prices and to prepare the data for machine learning modeling.
 
 ## Modules/Libraries
